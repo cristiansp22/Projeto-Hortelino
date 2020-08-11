@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link  rel="stylelesheet" type="txt/css" href="css/estilo.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div class="form1">
+            <form>
+                nome:<input type="text" name="nome" id="name" size="40" placeholder="digite o  seu nome" autofocus  required >
+                idade:<input type="number" name="idade" id="age" required>
+                sexo:<select name="sexo" id="gender">
+                    <option value="masculino">masculino</option>
+                    <option value="feminino">feminino</option>  
+                    <option value="trans">trans</option>
+                </select>
+                <input type="reset" value="limpar">
+                <input type="button" value="enviar" onclick="processaForm()">
+            </form>
+
+    </body>
+</html>
